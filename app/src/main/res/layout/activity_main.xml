@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/newcover" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/rateit"
+            android:textSize="17sp"
+            android:textColor="@color/lightblue"
+            android:textStyle="bold"
+            android:text="შეაფასე შენი ლექტორი"
+            android:background="#F1EFEF"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/cover"
+        android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</ScrollView>

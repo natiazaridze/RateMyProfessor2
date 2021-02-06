@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/foni"
+    tools:context=".RateActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/handsphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginHorizontal="20dp"
+            android:textSize="20sp"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:text="შეაფასე შენი ლექტორი"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:text="ნიკა ტაბატაძე"
+            android:layout_marginTop="14dp"
+            android:layout_height="wrap_content"/>
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:background="@color/lightblue"
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:text="სერგო კვიჟინაძე"
+            android:layout_marginTop="14dp"
+            android:layout_height="wrap_content"/>
+        <RatingBar
+            android:id="@+id/ratingBar3"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:background="@color/lightblue"
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:text="ჯანო ბოკუჩავა"
+            android:layout_marginTop="14dp"
+            android:layout_height="wrap_content"/>
+        <RatingBar
+            android:id="@+id/ratingBar4"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:background="@color/lightblue"
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:text="გიორგი ჩუგოშვილი"
+            android:layout_marginTop="14dp"
+            android:layout_height="wrap_content"/>
+        <RatingBar
+            android:id="@+id/ratingBar5"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:background="@color/lightblue"
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:text="მიხეილ სამხარაძე"
+            android:layout_marginTop="14dp"
+            android:layout_height="wrap_content"/>
+        <RatingBar
+            android:id="@+id/ratingBar6"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:background="@color/lightblue"
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:text="ლიკა სვანაძე"
+            android:layout_marginTop="14dp"
+            android:layout_height="wrap_content"/>
+        <RatingBar
+            android:id="@+id/ratingBar7"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:background="@color/lightblue"
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:text="მაია სვანიძე"
+            android:layout_marginTop="14dp"
+            android:layout_height="wrap_content"/>
+        <RatingBar
+            android:id="@+id/ratingBar8"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:background="@color/lightblue"
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:text="ვახტანგ როდონაია"
+            android:layout_marginTop="14dp"
+            android:layout_height="wrap_content"/>
+        <RatingBar
+            android:id="@+id/ratingBar9"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:background="@color/lightblue"
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:text="რევაზ ციცქიშვილი"
+            android:layout_marginTop="14dp"
+            android:layout_height="wrap_content"/>
+        <RatingBar
+            android:id="@+id/ratingBar10"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:background="@color/lightblue"
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:text="შოთა ზაზაშვილი"
+            android:layout_marginTop="14dp"
+            android:layout_height="wrap_content"/>
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:background="@color/lightblue"
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+    </LinearLayout>
+
+
+</ScrollView>

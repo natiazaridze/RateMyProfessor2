@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foni"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".AuthenticationActivity">
+
+    <ImageView
+        android:src="@drawable/hands"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/appname"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/appname"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/lightpink"
+       android:textStyle="bold"
+     app:layout_constraintLeft_toLeftOf="parent"
+     app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginHorizontal="70dp"
+    android:text="RateMyProfessor"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/LogInButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/round_btn"
+        app:layout_constraintBottom_toTopOf="@+id/SignUpButton"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/SignUpButton"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="105dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_btn"
+        android:text="@string/sign_up"
+        android:layout_width="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/LogInButton"
+        app:layout_constraintRight_toRightOf="@+id/LogInButton"
+        app:layout_constraintTop_toTopOf="@+id/LogInButton" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

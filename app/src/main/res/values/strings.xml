@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RateMyProfessor</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="review_of_lectures">Review of Lectures</string>
+</resources>
